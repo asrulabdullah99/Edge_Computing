@@ -26,9 +26,9 @@ Mata kuliah ini membahas paradigma Komputasi Tepi (*Edge Computing*) dengan foku
 
 ## 4. Rencana Kegiatan Pembelajaran Mingguan (16 Pertemuan)
 
-| Minggu | Kemampuan Akhir yang Diharapkan (Sub-CPMK) | Materi Pembelajaran | Bentuk & Metode Pembelajaran | Penilaian (Indikator & Kriteria) | Bobot |
-| :---: | :--- | :--- | :--- | :--- | :---: |
-| **1** | Mampu menjelaskan konsep dasar *Edge Computing*, IoT, dan TinyML. | 1. Pengenalan *Edge vs Cloud Computing*<br>2. Arsitektur sistem Edge IoT<br>3. Konsep dasar TinyML pada MCU | Kuliah Interaktif, Diskusi<br>*(TM: 2x50", BM: 2x60")* | Ketepatan menjelaskan perbedaan Edge dan Cloud. | 2% |
+| Minggu | Kemampuan Akhir yang Diharapkan (Sub-CPMK) | Materi Pembelajaran | Bentuk & Metode Pembelajaran | Penilaian (Indikator & Kriteria) | Bobot | Materi |
+| :---: | :--- | :--- | :--- | :--- | :---: |:---: |
+| **1** | Mampu menjelaskan konsep dasar *Edge Computing*, IoT, dan TinyML. | 1. Pengenalan *Edge vs Cloud Computing*<br>2. Arsitektur sistem Edge IoT<br>3. Konsep dasar TinyML pada MCU | Kuliah Interaktif, Diskusi<br>*(TM: 2x50", BM: 2x60")* | Ketepatan menjelaskan perbedaan Edge dan Cloud. | 2% |[Week_1](./Week_1)
 | **2** | Mampu mengatur lingkungan pengembangan untuk ESP32. | 1. Arsitektur ESP32 (Dual-core, memori, I/O)<br>2. Setup Arduino IDE / PlatformIO<br>3. Pemrograman GPIO dasar | Praktikum, *Project-based*<br>*(TM: 2x50", P: 1x170")* | Keberhasilan konfigurasi environment dan *blink* LED/Sensor. | 3% |
 | **3** | Mampu melakukan akuisisi data sensor melalui ESP32. | 1. Integrasi sensor analog & digital (misal: MPU6050, DHT22)<br>2. *Signal processing* dasar di MCU | Praktikum, Demonstrasi<br>*(TM: 2x50", P: 1x170")* | Ketepatan pembacaan dan parsing data sensor. | 5% |
 | **4** | Mampu mengirimkan data akuisisi ke *Cloud* atau *Data Logger*. | 1. Protokol MQTT & HTTP POST/GET<br>2. Mengirim data *telemetry* ke Cloud<br>3. Pengumpulan dataset untuk ML | Praktikum, *Problem-based*<br>*(TM: 2x50", P: 1x170")* | Keberhasilan koneksi ESP32 ke broker MQTT dan visualisasi data. | 5% |
