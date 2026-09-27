@@ -14,6 +14,10 @@
 ## 2. Kebutuhan Perangkat keras
 1. 1x ESP32 Development Board
 2. 1x Kabel Micro-USB / USB-C (sesuai tipe board) untuk koneksi dan daya
+3. 1x LED
+4. Kabel Jumper / Wire
+5. Resistor 220 Ohm (jika diperlukan)
+6. Breadboard (jika diperlukan)
 
 ---
 
