@@ -27,7 +27,7 @@ Salin kode berikut ke dalam editor kode (Arduino IDE atau berkas `main.cpp` di P
 
 ```cpp
 /**
- * Proyek      : Praktikum 1 - Blink LED (IoT Hello World)
+ * Proyek      : Praktikum 1 - Blink LED
  * Deskripsi   : Mengendalikan LED internal agar berkedip dengan interval 1 detik.
  */
 
@@ -45,7 +45,31 @@ void loop() {
   delay(1000);                 
 }
 ```
+Salin kode berikut ke dalam editor kode (Arduino IDE atau berkas `main.cpp` di PlatformIO):
 
+```cpp
+/**
+ * Proyek      : Praktikum 2 - Input Push Button
+ * Deskripsi   : Mengamati Perilaku Push Button / (On/Off).
+ */
+
+const int buttonPin = 4; 
+int buttonState = 0; 
+void setup() { 
+  Serial.begin(115200); 	pinMode(buttonPin, INPUT_PULLUP); 
+}
+
+void loop() { 
+  buttonState = digitalRead(buttonPin); 
+    if (buttonState == LOW) { 
+        Serial.println("Tombol Ditekan Aktif!"); 
+    } else { 
+        Serial.println("Tombol Dilepas Pasif."); 
+    } 
+  delay(50);
+}
+
+```
 ---
 
 ## Tugas Eksperimen Mandiri (Challenge)
